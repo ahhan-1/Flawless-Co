@@ -1,0 +1,185 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(loginbg.png);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+  
+  }
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+    
+  }
+  
+  .nav-list li a {  
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #0000009d;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+  
+  }
+  
+  .brand a{
+    margin-top: 10px;
+    color: #176B87;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+margin-right: 630px;    
+  }
+.posisi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.log-in {
+
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    
+
+}
+
+.masuk {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    color: #176B87;
+}
+
+.login-container {
+
+    background: rgba(255, 254, 254, 0.637);
+    padding: 20px 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 400px;
+    text-align: center;
+    height: 600px;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #49979B;
+    margin-left: 20px;
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 0px transparent;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 10px;
+    box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+}
+
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #176B87;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: monospace;
+}
+
+
+button:hover {
+    background-color: #176B87;
+    scale: 1.10;
+}
+
+
+/* Style for social login buttons */
+.social-button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+   
+
+}
+
+
+.social-button.google {
+    background-color: #db4437;
+    font-family: monospace;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(141, 141, 141, 0.466);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.social-button.google:hover {
+    background-color: #c33c29;
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+    font-family: monospace;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(141, 141, 141, 0.466);
+    transition: all 0.2s ease-in-out;}
+
+
+.social-button.facebook:hover {
+    background-color: #2d4373;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #49979B;
+}
+

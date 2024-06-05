@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(bgblkng.png);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 35px 50px;
+  box-shadow: 0 4px 16px rgb(83, 83, 83);
+
+
+
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+  
+}
+
+.nav-list li a {  
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #0000009d;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  font-size: 20px;
+  font-family: monospace;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.nav-list li a:hover {
+  background-color: #49979B;
+  border-radius: 20px;
+  color: white;
+  scale: 1.10;
+}
+.brand a{
+  margin-top: 10px;
+  color: #49979B;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  margin-left: 83px;
+  }
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.452);
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #49979B;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+  gap: 20px;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: monospace;
+}
+
+.search-button:hover {
+  background-color: #5a5a5a;
+  scale: 1.10;
+}
+
+.akun {
+  color: #ffffff;
+  font-family: monospace;
+  background-color: #49979B;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+  gap: 20px;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: monospace;
+  display: block;
+}
+
+.akun:hover {
+  background-color: #4e4e4e;
+  border-radius: 20px;
+  scale: 1.10;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10 30px;
+  
+}
+
+.wrapper-1 {
+  display: flex;
+  justify-content: center;
+  margin: 10 30px;
+
+
+}
+
+.wrapper-1 .card {
+  margin: 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568);
+  
+}
+
+.wrapper .card {
+  margin: 30px 10px 10px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568);
+}
+
+.card img {
+  padding: 10px;
+  margin: 0px 20px;
+  width: 250px;
+  border-radius: 30px;
+
+}
+
+.card:hover {
+  scale: 1.10;
+  transition: all 0.2s ease-in-out
+
+}
+.ring {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.rings {
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  color: #0000009d;
+}
